@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio Website",
   "main": "index.js",
+  "homepage": "https://donPuerto.github.io/portfolio-with-sass",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +13,7 @@
   "author": "Don Puerto",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
